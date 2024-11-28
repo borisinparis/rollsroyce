@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+.top-header {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-block-end: 2px solid gainsboro;
+    max-width: 1260px;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1000   ;
+
+}
+.service0 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    column-gap: 15px;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.service1 img{
+    width:150px ;
+    height: 90px;
+    color: aliceblue;
+} 
+.service2 {
+    color: aliceblue;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-transform: capitalize;
+}
+.tomhead {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-top: 10%;
+    animation: xdiv 2s ease-in-out 0.2s;
+}
+@keyframes xdiv {
+    from {
+        opacity: 0.5;
+        transform: translateY(100px);
+        filter: blur(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+.jijighead {
+    color: rgb(206, 204, 204);
+    font-size: 50px;
+    margin-top: 2%;
+    animation: xdiv 2s ease-in-out 0.2s;
+}
+.contain1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100wh;
+}
+.garig {
+    width: 276px;
+    height: 46px;
+    border-radius: 20px;
+    margin-top: 2%;
+    background-color: rgb(206, 204, 204);
+    font-size: 12px;
+    text-transform: uppercase;
+    animation: xdiv 2s ease-in-out 0.2s;
+    border:none;    
+}
+.button1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 25px;
+    
+}
+.button1 input {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: #00000033;
+    box-shadow: 0 0 0 1px #8c8b8b;
+    width: 10px;
+    height: 10px;
+}
+.button3 {
+    position: fixed;
+    top: 40%;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer {
+    background-color: black;
+    height: 80vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+.images-footer {
+    display: flex;
+    gap: 20px;
+}
+.jigd { 
+    width: 432px;
+    height: 600px;
+    border-left: 2px solid gray;
+}
+.jigd img {
+    width: 100%;
+    height: 400px;
+    transition: all 1s;
+}
+.jigd:hover img {
+    opacity: 0.6;
+    scale: 1.2;
+}
+.bau {
+    height: 400px;
+    overflow: hidden;
+    width: 100%;
+}
+.feet1 {
+    position: fixed;
+    bottom: 0;
+    width: 1260px;
+    height: 300px;
+    background-color: black;
+    z-index: -1;
+}
+.feet2 {
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding:60px;
+    border-block-end: 2px solid #ffffff;
+    width: 100%;
+
+}
+.feet3 {
+    display: flex;  
+    flex-wrap: wrap;
+    color: white;
+    column-gap: 20px;
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+
+}
+.feet3 p {
+    letter-spacing: 5px;
+}
+.feet {
+    display: flex;
+    justify-content: center;
+}
+.black-ground {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    z-index: -2;
+}
+.feeter-dew {
+    border-block-end: 2px solid rgb(255, 255, 255);
+}
+.icons span {
+    fill: white;
+}
+.icons {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+.feeter-dew {
+    display: flex;
+    justify-content: space-between;
+}
